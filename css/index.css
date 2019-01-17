@@ -170,6 +170,14 @@ img {
 }
 .navigation {
   display: flex;
+  justify-content: space-between;
+}
+.navigation .nav-bar {
+  display: flex;
+  align-items: center;
+}
+.navigation .nav-bar a {
+  font-size: 1.6rem;
 }
 .footer {
   width: 100%;
