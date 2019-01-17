@@ -175,9 +175,13 @@ img {
 .navigation .nav-bar {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
 }
 .navigation .nav-bar a {
+  color: #212529;
   font-size: 1.6rem;
+  text-decoration: none;
 }
 .footer {
   width: 100%;
