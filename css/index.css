@@ -225,3 +225,12 @@ img {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  border-radius: 10px;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #17A2B8;
+  padding: 10px 20px;
+}
