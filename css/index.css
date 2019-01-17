@@ -168,17 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.navigation {
+.section-nav-bar-container {
+  display: flex;
+  border-bottom: 2px dashed lightgray;
+  width: 100%;
+}
+.section-nav-bar-container .navigation {
   display: flex;
   justify-content: space-between;
+  padding: 25px 0;
 }
-.navigation .nav-bar {
+.section-nav-bar-container .navigation .nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 50%;
 }
-.navigation .nav-bar a {
+.section-nav-bar-container .navigation .nav-bar a {
   color: #212529;
   font-size: 1.6rem;
   text-decoration: none;
