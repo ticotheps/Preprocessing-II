@@ -136,6 +136,10 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
 }
+header {
+  border-bottom: 2px dashed lightgray;
+  padding: 0 0 20px;
+}
 h1,
 h2,
 h3,
