@@ -20,8 +20,26 @@
                 color: @shark;
                 font-size: 1.6rem;
                 text-decoration: none;
+
+                @media @mobile {
+                    font-size: 1.8rem;
+                  }
+
             }
+
+            @media @mobile {
+                width: 100%;
+                padding-top: 20px;
+              }
+
         }
+
+        @media @mobile {
+            .flex-column;
+            .flex-align-center;
+            padding: 15px 0;
+          }
+
     }
 
 }
