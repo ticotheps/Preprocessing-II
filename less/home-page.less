@@ -78,6 +78,7 @@
     @media @mobile {
       .flex-box;
       .flex-column;
+      margin-top: 0;
     }
   }
 
@@ -87,6 +88,14 @@
 
     img {
       border-radius: 10px;
+
+      @media @mobile {
+        width: 100%;
+      }
+    }
+
+    @media @mobile {
+      width: 95%;
     }
   }
 
