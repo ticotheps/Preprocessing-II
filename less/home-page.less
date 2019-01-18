@@ -102,12 +102,23 @@
 
       .btn {
         .custom-btn(@main-bg, @button-bg);
+
+        @media @mobile {
+          width: 100%;
+        }
+      }
+
+      @media @mobile {
+        max-width: 500px;
+        width: 80%;
       }
     }
 
     @media @mobile {
-      .flex-column;
-      .flex-align-center;
+      .flex-space-evenly;
+      flex-wrap: wrap;
+      max-width: 500px;
+      width: 95%;
     }
   }
 
@@ -116,4 +127,10 @@
     width: 95%;
   }
 
+
+  @media @mobile {
+    .flex-box;
+    .flex-column;
+    .flex-align-center;
+  }
 }// home
