@@ -1,1 +1,46 @@
 // Navigation Styles here
+
+.section-nav-bar-container {
+    .flex-box;
+    .dashed-border-bottom;
+    width: 100%;
+
+    .navigation {
+        .flex-box;
+        .flex-space-between;
+        padding: 25px 0;
+    
+        .nav-bar {
+            .flex-box;
+            .flex-align-center;
+            .flex-space-evenly;
+            width: 50%;
+    
+            a {
+                color: @shark;
+                font-size: 1.6rem;
+                text-decoration: none;
+
+                @media @mobile {
+                    font-size: 1.8rem;
+                  }
+
+            }
+
+            @media @mobile {
+                width: 100%;
+                padding-top: 20px;
+              }
+
+        }
+
+        @media @mobile {
+            .flex-column;
+            .flex-align-center;
+            padding: 15px 0;
+          }
+
+    }
+
+}
+
